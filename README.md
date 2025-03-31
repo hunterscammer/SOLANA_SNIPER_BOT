@@ -64,7 +64,7 @@ This is an ultra-fast Solana sniper bot with execution speeds under 1 millisecon
 
 ```bash
 # Clone repository
-git clone https://github.com/KrevSOL/SOLANA_SNIPER_BOT.git
+git clone https://github.com/KrevTos/SOLANA_SNIPER_BOT.git
 
 # Navigate to project directory
 cd SOLANA_SNIPER_BOT
