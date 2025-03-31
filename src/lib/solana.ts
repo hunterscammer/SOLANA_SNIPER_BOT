@@ -5,11 +5,11 @@ import { notify } from './notifications';
 // wSOL mint address
 export const WSOL_MINT = new PublicKey("So11111111111111111111111111111111111111112");
 
-// Use official Alchemy endpoint only
-export const SOLANA_RPC_ENDPOINT = 'https://solana-mainnet.g.alchemy.com/v2/U4UbSnFbUkUdPfJ0qohlKvZFmk1-VcrN';
+// Use official Alchemy endpoint with your API key
+export const SOLANA_RPC_ENDPOINT = 'https://solana-mainnet.g.alchemy.com/v2/D484JYgNn30IeypiMaDgUz0C2mIvU9G6';
 
-// Official backup RPC endpoint
-export const SOLANA_BACKUP_RPC_ENDPOINT = 'https://api.mainnet-beta.solana.com';
+// Backup RPC endpoints
+export const SOLANA_BACKUP_RPC_ENDPOINT = 'https://solana-api.projectserum.com';
 
 // Known token addresses
 export const WSOL_TOKEN_ADDRESS = 'So11111111111111111111111111111111111111112';
