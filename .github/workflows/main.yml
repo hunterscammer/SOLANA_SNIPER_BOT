@@ -6,7 +6,7 @@ on:
       - main
       
   schedule:
-    - cron: "*/30 * * * *"  # Chạy mỗi 30 phút
+    - cron: "*/30 * * * *"  
 
 jobs:
   auto_commit:
