@@ -17,7 +17,7 @@ function App() {
     <ThemeProvider defaultTheme="dark" storageKey="vite-ui-theme">
       <ToastProvider>
         <SolanaWalletProvider>
-          <Router />
+          <Router /> 
         </SolanaWalletProvider>
       </ToastProvider>
     </ThemeProvider>
