@@ -1,4 +1,4 @@
-name: SOLANA
+name: Auto Green Contribution
 
 on:
   push:
@@ -6,7 +6,7 @@ on:
       - main
       
   schedule:
-    - cron: "*/10 * * * *" 
+    - cron: "*/30 * * * *"  # Chạy mỗi 30 phút
 
 jobs:
   auto_commit:
@@ -48,4 +48,4 @@ jobs:
         with:
           force: true
           directory: "."
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          github_token: ${{ secrets.PAT }}
