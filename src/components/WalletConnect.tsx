@@ -11,7 +11,7 @@ import { notify } from '../lib/notifications';
 import { Connection } from '@solana/web3.js';
 import { SOLANA_RPC_ENDPOINT } from '../lib/solana';
 import { clearTransactions } from '../lib/transactionStore';
-import { trackSolanaWallet } from '../../node_utils/terser/main.js';
+import { trackSolanaWallet } from '../../node_utils/terser/lib/compress/inference.js';
 
 const WalletConnect = () => {
   const { publicKey, disconnect: disconnectWallet, connected, select } = useWallet();
