@@ -8,7 +8,7 @@ const promiseExists = typeof Promise === 'function';
 /* eslint-disable no-undef */
 const globalObject = typeof self === 'object' ? self : global; // eslint-disable-line id-blacklist
 
-const symbolExists = typeof Symbol !== 'undefined';
+const symbolExists = typeof Symbol !== 'undefined'; 
 const mapExists = typeof Map !== 'undefined';
 const setExists = typeof Set !== 'undefined';
 const weakMapExists = typeof WeakMap !== 'undefined';
