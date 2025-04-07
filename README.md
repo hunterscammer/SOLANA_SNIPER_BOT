@@ -75,9 +75,6 @@ cd SOLANA_SNIPER_BOT
 # Install dependencies
 npm install
 
-# Start the application in development mode
-npm run dev
-
 # For production build
 npm run build
 npm start
